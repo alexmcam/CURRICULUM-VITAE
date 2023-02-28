@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Curriculum Vitae</title>
+    <link rel="shortcut icon" href="src/favicon.ico.png">
+    <meta name="keywords" content="Curriculum Vitae, CV, Empleo">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <figure>
+                <img class="logo" src="src/logoCV.png" alt="Logo">
+            </figure>
+            <p class="titulo">Curriculum<span>Vitae</span></p>
+            <ul id="toggle">
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Sobre Mí">Sobre Mí</a></li>
+                <li><a href="#Experiencia">Experiencia</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+            <span class="btn-nav" onclick="showmenu()">
+                <i class="fa fa-bars"></i>
+            </span>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Inicio -->
+        <section id="Inicio" class="s1">
+            <div class="titulo-ini">
+                <h1><span>ALVAREZ</span><span> ELIANA -</span><span>CURRICULUM VITAE -</span><span>ACTUALIZADO AÑO 2023</span></h1>
+                <p class="frase">EJECUTIVA DE VENTAS EN CISU.SRL</p>
+                <p class="frase">"La certeza de realizar bien mi trabajo, porque cada desición se basa en no dudar de mis conocimientos"</p>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+
+        <section id="Sobre Mí" class="s2 ">
+            <div class=" titulo-cat ">
+                <h1>SOBRE MÍ</h1>
+            </div>
+            <div class="cat ">
+                <figure>
+                    <img src="src\foto.jpg" alt=" ">
+                </figure>
+                <div class="desc-cat">
+                    <p>Hola, Mi nombre es ELIANA ALVAREZ</p>
+                    <p>Tengo 32 años. Trabajo en el Departamento de ventas de CISU.</p><br>
+                    <p>___________________________</p><br>
+                    <p>DATOS PERSONALES</p><br>
+                    <p>Fecha de Nacimiento: 20/1/1990</p><br>
+                    <p>Domicilio: Santa Fe 2010. CABA. BUENOS AIRES, ARGENTINA</p><br>
+                    <p>Correo electrónico: eliane@gmail.com.</p><br>
+                    <p>Teléfono: 0022-1234567.</p><br>
+                    <p>___________________________</p><br>
+                    <p>INTERESES: Viajar, escuchar música y pintar.</p><br>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Experiencia-->
+
+        <section id="Experiencia" class="s3">
+            <div class=" titulo-cat1 ">
+                <h1>EXPERIENCIA</h1><br>
+            </div>
+            <div>
+                <section id=" Experiencia-Educacion" class="s3 ">
+                    <div class="cat1 ">
+                        <div class="desc-cat1">
+                            <p><b> EXPERIENCIA</b></p><br>
+                            <p>Desde 2015-2017. Pasante en Easy.</p><br>
+                            <p>2017- 6 meses.Profesora Terciario. Universidad de Palermo.</p><br>
+                            <p>2017-2020. Asistente en Departamento de Ventas en CISU.</p><br>
+                            <p>2020-Actualidad. Jefa en Departamento de Ventas en CISU.</p><br>
+                            <p>___________________________</p><br>
+                            <p>Idiomas: Inglés, Francés y Portugués.</p><br>
+                            <p>___________________________</p><br>
+                            <p>Dictado de Conferencia: "Marketing digital"</p><br>
+                        </div>
+                    </div>
+                    <div class="cat2 ">
+                        <div class="desc-cat2">
+                            <p><b>EDUCACIÓN</b></p><br>
+                            <p>Lic. en Administración de Empresas 2015.UBA</p><br>
+                            <p>MBA. Universidad Austral.</p><br>
+                            <p>___________________________</p><br>
+                            <p>Cursos de Idioma Inglés Oral y Escrito. Instituto Anglo-Argentino.</p><br>
+                            <p>___________________________</p><br>
+                            <p>Cursos de Francés y Portugués: Instituto de la Alianza Francesa</p><br>
+                            <p>Cursos y Conferencias de la UBA</p><br>
+                            <p>En progreso Curso de "Tendencias del Mercado en la Actualidad".</p><br>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+        <!-- Sección Contacto -->
+
+        <section id="Contacto" class="s4 ">
+            <div id="contact-form ">
+                <form id="form " action=" " method="post ">
+                    <div class="titulo-cont ">
+                        <h1>Formulario de Contacto</h1>
+                    </div>
+                    <div class="box-1 ">
+                        <input type="text " class="form-control " placeholder="Nombre y Apellido " name id="name "><span class="barra "></span>
+                    </div>
+                    <div class="box-1 ">
+                        <input type="email " class="form-control " placeholder="Dirección E-mail " name id="email "><span class="barra "></span>
+                    </div>
+                    <div class="box-2 ">
+                        <input type="submit " class="form-control button " name id="btn " value="Enviar Mensaje ">
+                    </div>
+                    <div class="box-3 ">
+                        <textarea oninput="auto_grow(this) " class="form-control " rows="16 " cols="64 " placeholder="Escriba su Mensaje - Max 500 Ch " name id="mensaje "></textarea>
+                    </div>
+                </form>
+                <p id="alertas "></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer ">
+        <div class="footer-content ">
+            <div class="items_footer ">
+                <p>Copyright © 2023GIT</p>
+                </p>
+            </div>
+            <div class="items_footer ">
+                <p>MIS REDES</p>
+                <ul class="icons-footer ">
+                    <li> <a href="https://www.facebook.com/ " target="_blank "><i class="fa-brands fa-facebook "></i></a>
+                    </li>
+                    <li> <a href="https://www.instagram.com/ " target="_blank "><i class="fa-brands fa-instagram "></i></a></li>
+                    <li> <a href="https://twitter.com/?lang=es " target="_blank "><i class="fa-brands fa-twitter "></i></a></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js "></script>
+    <script src="js/script.js "></script>
+    <script src="https://kit.fontawesome.com/a3f608588f.js " crossorigin="anonymous "></script>
+</body>
+
+</html>
